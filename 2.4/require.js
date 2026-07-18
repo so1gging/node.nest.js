@@ -1,7 +1,7 @@
 console.log("require 가 가장 위에 오지 않아도 돼");
 module.exports = "나를 찾아봐";
 
-require("./var");
+require("./var.mjs");
 
 console.log("require.cache");
 console.log(require.cache);
